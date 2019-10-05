@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title id="topo">
+      Favoritos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list *ngFor="let coin of fav.fav_coins">
+
+        <ion-item class="list_item" color="dark">
+
+            <div class="image_list" [innerHTML]="fav.cripto_icons[coin.nome]">
+            </div>
+
+          <h1 class="coin_name">{{fav.cripto_names[coin.nome]}}</h1>
+          <h2 class="coin_price">             R$ {{coin.valor}}</h2>
+
+        </ion-item>
+
+
+  </ion-list>  
+
+  
+</ion-content>

@@ -1,0 +1,39 @@
+.image_list{
+  fill: green;  
+  width: 40px;
+  height: 40px;
+}
+#topo{
+  text-align: center;
+  font-size: 15px;
+  font-family:sans-serif;
+  position: relative;
+  top: 20px;
+  color: rgb(255, 207, 49);
+}
+#botao{
+  color: rgb(255, 207, 49);
+}
+h1.coin_name{
+  position: relative;
+  left: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+h2.coin_price{
+  position: relative;
+  left: 25px;
+  font-size: 12px;
+  top: 2px;
+  color: gray;
+  background-color: transparent;
+}
+ion-content{
+  --background: #333333;
+  background-size: cover;
+}
+ion-list.custom ion-item {
+  background-color: #333333;
+  background-size: 100%;
+}
